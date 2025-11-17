@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="stylezinho.css" />
+    <title>Andrey Portella - Portfólio</title>
+</head>
+
+<body>
+    <div class="particulas"></div>
+    <nav class="navegacao">
+        
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="hamburger" aria-label="Abrir menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <ul class="menu">
+            <li><a href="#inicio" class="menu-link">Início</a></li>
+            <li><a href="#sobre" class="menu-link">Sobre Mim</a></li>
+            <li><a href="#projetos" class="menu-link">Projetos</a></li>
+            <li><a href="#contato" class="menu-link">Contato</a></li>
+        </ul>
+    </nav>
+
+<section id="inicio" class="cabecalho">
+    <div class="cabecalho-conteudo">
+
+        <img src="img/perfil.jpeg" class="foto-perfil" alt="Foto de Perfil">
+
+        <div class="cabecalho-textos">
+            <h1>Andrey Portella</h1>
+            <h2 class="cabecalho-subtitulo">Desenvolvedor Front-End</h2>
+        </div>
+
+    </div>
+</section>
+
+<section id="sobre" class="sobre">
+    <h2 class="sobre-titulo">Sobre Mim</h2>
+
+    <div class="sobre-container">
+        <p class="sobre-texto">
+            Sou Andrey Portella, tenho 18 anos e moro em Curitiba – PR. Atualmente curso Desenvolvimento 
+            de Sistemas, com conhecimentos em <strong>HTML, CSS, JavaScript e Python</strong>, tendo maior 
+            afinidade com o <strong>desenvolvimento front-end</strong>. Desde pequeno sempre fui fascinado 
+            por tecnologia e curioso sobre como tudo funciona por trás das telas.
+        </p>
+
+        <p class="sobre-texto">
+            Também possuo experiência prática em <strong>infraestrutura de TI</strong>, onde atuei por 
+            1 ano e 6 meses com manutenção de computadores, suporte técnico e redes. Essa vivência me 
+            ajudou a desenvolver um perfil analítico, organizado e ágil na resolução de problemas.
+        </p>
+
+        <p class="sobre-texto">
+            Sou uma pessoa de rápida aprendizagem e sempre em busca de evoluir. Estou constantemente 
+            estudando, praticando e me desafiando com novos projetos, especialmente no desenvolvimento 
+            front-end, área pela qual sou apaixonado.
+        </p>
+    </div>
+</section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
+        <a href="https://github.com/portellaandrey/henrique-/commit/61dfd25dbc17cba190b585e4cdd1867ab0c0a7ca" target="_blank" class="apito">
+            <div class="projetos-card">
+                <img src="./img/image-76.jpg" alt="Roleta Python" />
+                <h3 class="info-projetos">Roleta Python</h3>
+                <p class="paragrafo-projetos">Projeto desenvolvido em Python que simula uma roleta interativa, permitindo ao usuário escolher números ou cores, realizar apostas e visualizar o resultado de forma dinâmica. O sistema inclui lógica de sorteio, validações e retorno imediato do resultado, proporcionando uma experiência simples e intuitiva.
+                </p>
+            </div>
+        </a>
+        <a href="https://github.com/portellaandrey/barbearia-sistema/commit/9085aee635231a36bcbff430184b57c6183a10dd" target="_blank" class="apito 2">
+            <div class="projetos-card">
+                <img src="./img/Express+Retail+Group-220525-Joondalup-0825.webp" alt="sistema barbearia" />
+                <h3 class="info-projetos">Sistema para barbearia</h3>
+                <p class="paragrafo-projetos">Esta tela de login foi desenvolvida utilizando HTML semântico e CSS moderno, priorizando design limpo, responsivo e focado na experiência do usuário. O layout apresenta uma interface minimalista, com elementos suaves, bordas arredondadas e um efeito sutil de vidro (glassmorphism), proporcionando um visual elegante e atual.</p>
+            </div>  
+        </a>         
+         <a href="https://github.com/portellaandrey/tela-de-login/blob/main/tela%20de%20login.html" target="_blank" class="apito">
+            <div class="projetos-card">
+                <img src="./img/temp99546.webp" alt="tela de Login html" />
+                <h3 class="info-projetos">tela de login</h3>
+                <p class="paragrafo-projetos">Esta tela de login foi desenvolvida utilizando HTML semântico e CSS moderno, priorizando design limpo, responsivo e focado na experiência do usuário. O layout apresenta uma interface minimalista, com elementos suaves, bordas arredondadas e um efeito sutil de vidro (glassmorphism), proporcionando um visual elegante e atual.</p>
+            </div>
+        </a> 
+        </div>
+    </section>
+
+ <section id="contato" class="contato">
+        <h2 class="contatos-titulo">Entre Em Contato</h2>
+        <form class="formulario-contato" id="formulario">
+            <div class="grupo-form">
+                <input type="text" name="nome" placeholder="Nome" class="campo-form" required />
+            </div>
+            
+            <div class="grupo-form">
+                <input type="tel" name="telefone" placeholder="Seu Telefone com DDD (ex: 41987654321)" class="campo-form" required />
+            </div>
+            
+            <div class="grupo-form">
+                <textarea name="mensagem" class="campo-form" placeholder="Digite Sua Mensagem" rows="6" id="mensagem" required></textarea>
+            </div>
+            <button type="submit" class="botão-form">ENVIAR MENSAGEM</button>
+        </form>
+    </section>
+
+<footer class="rodape">
+    <p>© 2025 Andrey Portella.</p>
+
+    </footer>
+
+</footer>
+<script src="script.js"></script> 
+
+</body>
+</html>
